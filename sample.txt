@@ -1,0 +1,46 @@
+In this article, I am going to show you 20 award-winning JavaScript games from the JS13kGames competition. So in other words, you're going to see 20 great examples of code from 20 insanely talented developers.
+
+If you haven’t heard of the JS13kGames competition, you are in for a treat.
+
+As one of the judges in last year's games, I was blown away by the standard of work that I saw. It is absolutely incredible what these developers have managed to build using JavaScript that fits in a little 13KB zip file.
+
+But first, what are the Js13kGames, you might ask?
+Js13kGames is a JavaScript coding competition open to everyone and anyone wanting to try out Game Development.
+
+I personally like it because it limits you to using JavaScript, which creates a level playing field for developers not directly in the game developer industry. Plenty of web developers enter, too.
+
+As the name suggests, all your code and game assets should be smaller than or equal to 13 kilobytes (that's exactly 13,312 bytes, because 13 x 1024) when zipped.
+
+This means that you should not overcomplicate building the zip package. It should unpack on any platform, anytime, anywhere, without problems. You can, of course, use tools that minify JavaScript source code if that helps you out.
+
+The competition is meant to be kept on the light side. But to make everyone's lives a little easier and the entries more standardized, there are some rules you should abide by. These rules are taken from the Js13kGames website, and you can see the full set here. We'll go through them now.
+
+You are not permitted to use external services or libraries
+You are not permitted to use any libraries, images or data files hosted on a server or services that provide any type of data.
+
+For example, Google Fonts are not permitted. But you are allowed to ask users to live-load a web font to support some characters or emoji on devices that can't display them properly. You just have to make sure your game will work without them, too.
+
+Analytics and other stat-collecting scripts are also not allowed.
+
+All the game assets should fit in the package size limit (the A-Frame, Babylon.js, and Three.js frameworks are not counted towards the size limit, but you can use them only in the WebXR category).
+
+If you manage to shrink your favorite library below 13 kilobytes including the code itself, then you can use whatever you want – just remember the 13 kB limit.
+
+And let's face it – sometimes, in a world where developers can get caught up scrolling through the npm library, trying to find the latest shortcut to their problem, it’s nice to strip it back to basics.
+
+You should stick to the theme
+The main theme for the competition is announced around August each year. I strongly advise you to follow the theme in your game, because the judges will pay attention to that.
+
+But you can freely interpret the theme and implement it however you feel is best. For 2020, the theme was all around the number 404.
+
+Manage errors and browser support
+Your game must work and be playable in at least two browsers: the latest Firefox and Chrome. But the more supported browsers, the better.
+
+There should also be no errors. You can lose some points if your game is showing any errors in the console. If we cannot play your game, it won't be accepted.
+
+How many games can I submit?
+You can submit as many games as you want! You can submit with a friend, a group of friends, your dog, it’s super flexible and anyone can join :)
+
+This awesome competition was created by Andrzej Mazur in 2012 in his spare time. Andrzej used his own savings to print off t-shirts for contestants, he sent prizes, and essentially ran the whole thing on his own.
+
+In its 8th year the competition now has global recognition, with entries from all over the world.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Data</title>
+</head>
+<body>
+    <div>
+        <h1>You Searched For: <%= data.userQuery %> </h1>
+        <% if (data.loggedIn) { %> 
+            <h2>You are logged in as: <%= data.userName %> </h2>
+            <% } %>
+        <ul>
+            <!-- Instead o saying dummy data, we can  
+                populate a list by index        -->
+            <% data.searchResults.forEach(result => { %>
+               <li> <%= result %> </li>
+            <% }); %>
+        </ul>
+    </div>
+    <script src='/public/js/example.js'></script>
+</body>
+</html>
